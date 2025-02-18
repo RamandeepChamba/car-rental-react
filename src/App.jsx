@@ -7,8 +7,11 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="/:city/search" element={<SearchResults />} />
+          <Route path="/car-rental-react" element={<Homepage />} />
+          <Route
+            path="/car-rental-react/:city/search"
+            element={<SearchResults />}
+          />
         </Routes>
       </BrowserRouter>
     </div>

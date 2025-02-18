@@ -42,7 +42,7 @@ function SearchCarForm() {
     }
     // Navigate to search results page
     navigate(
-      `/${city}/search?lat=${position.lat}&lng=${position.lng}&delivery=${delivery}&tripStartDate=${tripStartDate}&tripEndDate=${tripEndDate}`
+      `/car-rental-react/${city}/search?lat=${position.lat}&lng=${position.lng}&delivery=${delivery}&tripStartDate=${tripStartDate}&tripEndDate=${tripEndDate}`
     );
   }
 
