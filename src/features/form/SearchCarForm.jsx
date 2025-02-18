@@ -81,6 +81,7 @@ function SearchCarForm() {
       <input
         type="date"
         name="start"
+        required
         id="trip-starts"
         value={tripStartDate}
         onChange={(e) => setTripStartDate(e.target.value)}
@@ -88,6 +89,7 @@ function SearchCarForm() {
       <input
         type="date"
         name="end"
+        required
         id="trip-ends"
         value={tripEndDate}
         onChange={(e) => setTripEndDate(e.target.value)}
